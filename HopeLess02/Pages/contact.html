@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="../CSS/contact.css" />
+    <link
+      rel="shortcut icon"
+      href="../Imagens/IconeSite.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main class="main-contact">
+      <!-- Modifique o e-mail antes de usar -->
+      <form action="https://formsubmit.co/your@email.com" method="POST" class="form-contact">
+        <label for="name">
+          <strong>Nome: *</strong>
+          <input id="name" name="name" type="text" placeholder="Digite o seu nome" required />
+        </label>
+
+        <label for="email">
+          <strong>E-mail: *</strong>
+          <input id="email" name="email" type="email" placeholder="Digite o seu e-mail" required/>
+        </label>
+
+        <label for="tel">
+          <strong>Celular:</strong>
+          <input id="tel" name="tel" type="tel" />
+        </label>
+        <button type="submit" class="form-btn">Enviar</button>
+        <input type="hidden" name="_subject" value="Novo Contato!">
+        <input type="text" name="_honey" style="display: none;">
+        <input type="hidden" name="_captch" value="false">
+        <!-- <a class="form-btn" href="./HopeLess.html">Enviar</a> -->
+      </form>
+      <img class="call"
+        style="width: 800px; margin-left: -200px"
+        src="../Imagens/contact.svg"
+        alt="Contato"
+      />
+    </main>
+  </body>
+</html>
